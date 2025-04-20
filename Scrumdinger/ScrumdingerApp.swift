@@ -2,7 +2,7 @@
 //  ScrumdingerApp.swift
 //  Scrumdinger
 //
-//  Created by Maral Nalbandian on 18/4/2025.
+//  Created by Maral N 18/4/2025.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct ScrumdingerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ScrumsView(scrums: DailyScrum.sampleData)
         }
     }
 }
